@@ -15,16 +15,16 @@ const COLORS: [(u8, u8, u8); 16] = [
     (0, 0, 0), // Black
     (P, S, S), // Red
     (S, P, S), // Green
-    (S, S, 0), // Yellow
-    (S, S, P), // Blue
+    (P, P, 0), // Yellow
+    (S, S + O, P + O), // Blue
     (P, S, P), // Magenta
     (0, P, P), // Cyan
     (255, 255, 255), // White
     (139, 134, 128), // Black (Bright) (middle grey)
     (P + O, S + O, S + O), // Red (Bright)
     (S + O, P + O, S + O), // Green (Bright)
-    (S + O, S + O, 0),   // Yellow (Bright)
-    (S + O, S + O, P + O), // Blue (Bright)
+    (P + O, P + O, 0),   // Yellow (Bright)
+    (0, S + O, P + O), // Blue (Bright)
     (P + O, S + O, P + O), // Magenta (Bright)
     (0, P + O, P + O),   // Cyan (Bright)
     (139 + O, 134 + O, 128 + O), // White (Bright)
