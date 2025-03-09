@@ -11,6 +11,7 @@ const COLOR_NAMES: [&str; 16] = [
     "Bright Blue", "Bright Magenta", "Bright Cyan", "Bright White"
 ];
 
+// Kleene Purple "#211930"
 const COLORS: [(u8, u8, u8); 16] = [
     (0, 0, 0), // Black
     (P, S, S), // Red
