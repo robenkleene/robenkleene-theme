@@ -3,16 +3,22 @@ use std::io::{stdout, Write};
 const P: u8 = (255.0 * 0.80) as u8;
 const S: u8 = (255.0 * 0.40) as u8;
 
-const O: u8 = 32;
+const O: u8 = 35;
+
+const COLOR_NAMES: [&str; 16] = [
+    "Black", "Red", "Green", "Yellow", "Blue", "Magenta", "Cyan", "White",
+    "Bright Black", "Bright Red", "Bright Green", "Bright Yellow",
+    "Bright Blue", "Bright Magenta", "Bright Cyan", "Bright White"
+];
 
 const COLORS: [(u8, u8, u8); 16] = [
-    (0, 0, 0),       // Black
-    (P, S, S),  // Red
+    (0, 0, 0), // Black
+    (P, S, S), // Red
     (S, P, S), // Green
-    (S, S, 0),   // Yellow
+    (S, S, 0), // Yellow
     (S, S, P), // Blue
     (P, S, P), // Magenta
-    (0, P, P),   // Cyan
+    (0, P, P), // Cyan
     (255, 255, 255), // White
     (139, 134, 128), // Black (Bright) (middle grey)
     (P + O, S + O, S + O), // Red (Bright)
@@ -45,5 +51,13 @@ fn main() {
         }
         println!();
     }
+
     stdout.flush().unwrap();
+
+    // Step 3: Print the hex values at the end
+    println!("\nHex Values:");
+    for (index, &(r, g, b)) in COLORS.iter().enumerate() {
+        let hex = format!("#{:02X}{:02X}{:02X}", r, g, b);
+        println!("{} : {}", hex, COLOR_NAMES[index]);
+    }
 }
