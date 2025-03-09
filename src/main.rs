@@ -28,6 +28,9 @@ const COLORS: [(u8, u8, u8); 16] = [
     (S + O, S + 2 * O, P + O), // Blue (Bright)
     (P + O, S + O, P + O), // Magenta (Bright)
     (0, P + O, P + O),   // Cyan (Bright)
+    // `Black` is true black and `White (Bright)` is true white, that seems to be correct, e.g.,
+    // `tig` uses `White` for unselected and `White (Bright)` for selected. Without true white as
+    // `White (Bright)` this means the selected commit is hard to read in `tig`.
     (255, 255, 255), // White (Bright)
 ];
 
