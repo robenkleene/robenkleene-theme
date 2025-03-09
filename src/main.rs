@@ -2,21 +2,21 @@ use std::io::{stdout, Write};
 
 const COLORS: [(u8, u8, u8); 16] = [
     (0, 0, 0),       // Black
-    (128, 0, 0),     // Red
-    (0, 128, 0),     // Green
-    (128, 128, 0),   // Yellow
-    (0, 0, 128),     // Blue
-    (128, 0, 128),   // Magenta
-    (0, 128, 128),   // Cyan
-    (192, 192, 192), // Light Gray
-    (128, 128, 128), // Dark Gray
-    (255, 0, 0),     // Bright Red
-    (0, 255, 0),     // Bright Green
-    (255, 255, 0),   // Bright Yellow
-    (0, 0, 255),     // Bright Blue
-    (255, 0, 255),   // Bright Magenta
-    (0, 255, 255),   // Bright Cyan
+    (219, 123, 52),  // Red
+    (111, 202, 112), // Green
+    (187, 187, 0),   // Yellow
+    (149, 167, 205), // Blue
+    (201, 120, 235), // Magenta
+    (0, 175, 175),   // Cyan
     (255, 255, 255), // White
+    (139, 134, 128), // Black (Bright)
+    (218, 189, 189), // Red (Bright)
+    (189, 218, 189), // Green (Bright)
+    (170, 170, 0),   // Yellow (Bright)
+    (135, 175, 223), // Blue (Bright)
+    (219, 163, 235), // Magenta (Bright)
+    (0, 255, 255),   // Cyan (Bright)
+    (204, 204, 204), // White (Bright)
 ];
 
 fn main() {
