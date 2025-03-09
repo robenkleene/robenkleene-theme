@@ -27,7 +27,7 @@ const COLORS: [(u8, u8, u8); 16] = [
     (S + O, S + O, P + O), // Blue (Bright)
     (P + O, S + O, P + O), // Magenta (Bright)
     (0, P + O, P + O),   // Cyan (Bright)
-    (P, P, P), // White (Bright)
+    (139 + O, 134 + O, 128 + O), // White (Bright)
 ];
 
 fn main() {
