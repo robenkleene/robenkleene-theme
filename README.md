@@ -1,8 +1,9 @@
 # Output Values
 
 Kleene Purple: `#211930`
-Cursor: `rgba(0,255,0,0.5)`, `#00BB00`
 Foreground color: `#F4F4F4`
+Cursor: `rgba(0,255,0,0.33)`, `#00BB00`
+A higher opacity than `0.33` makes dark grey hard to read
 
 ```
 #000000 : Black
