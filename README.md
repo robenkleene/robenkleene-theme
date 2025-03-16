@@ -2,6 +2,7 @@
 
 Kleene Purple: `#211930`
 Cursor: `rgba(0,255,0,0.5)`, `#00BB00`
+Foreground color: `#F4F4F4`
 
 ```
 #000000 : Black
