@@ -1,6 +1,7 @@
 # Output Values
 
 Kleene Purple: `#211930`
+Cursor: `rgba(69,150,131,0.5)`
 
 ```
 #000000 : Black
