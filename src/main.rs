@@ -20,7 +20,7 @@ const COLORS: [(u8, u8, u8); 16] = [
     (S, S + O, P), // Blue
     (P, S, P), // Magenta
     (0, P, P), // Cyan
-    (139 + O, 134 + O, 128 + O), // White
+    (255, 255, 255), // White
     (139, 134, 128), // Black (Bright) (middle grey)
     (P + O, S + O, S + O), // Red (Bright)
     (S + O, P + O, S + O), // Green (Bright)
@@ -31,7 +31,9 @@ const COLORS: [(u8, u8, u8); 16] = [
     // `Black` is true black and `White (Bright)` is true white, that seems to be correct, e.g.,
     // `tig` uses `White` for unselected and `White (Bright)` for selected. Without true white as
     // `White (Bright)` this means the selected commit is hard to read in `tig`.
-    (255, 255, 255), // White (Bright)
+    // Update: Now this seems inverted, `tig` is now using `White` as the select commit, probably
+    // missing some additional variable, but setting white as true white for now
+    (139 + O, 134 + O, 128 + O), // White (Bright)
 ];
 
 fn main() {

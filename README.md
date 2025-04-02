@@ -13,7 +13,7 @@ A higher opacity than `0.33` makes dark grey hard to read
 #6689CC : Blue
 #CC66CC : Magenta
 #00CCCC : Cyan
-#AEA9A3 : White
+#FFFFFF : White
 #8B8680 : Bright Black
 #EF8989 : Bright Red
 #89EF89 : Bright Green
@@ -21,7 +21,7 @@ A higher opacity than `0.33` makes dark grey hard to read
 #89ACEF : Bright Blue
 #EF89EF : Bright Magenta
 #00EFEF : Bright Cyan
-#FFFFFF : Bright White
+#AEA9A3 : Bright White
 ```
 
 # ANSI 256 Versions
@@ -34,7 +34,7 @@ A higher opacity than `0.33` makes dark grey hard to read
 #5F87D7: Blue
 #D75FD7: Magenta
 #00D7D7: Cyan
-#A8A8A8: White
+#FFFFFF: White
 #878787: Bright Black
 #FF8787: Bright Red
 #87FF87: Bright Green
@@ -42,5 +42,5 @@ A higher opacity than `0.33` makes dark grey hard to read
 #87AFFF: Bright Blue
 #FF87FF: Bright Magenta
 #00FFFF: Bright Cyan
-#FFFFFF: Bright White
+#A8A8A8: Bright White
 ```
