@@ -42,5 +42,7 @@ A higher opacity than `0.33` makes dark grey hard to read
 #87AFFF: Bright Blue
 #FF87FF: Bright Magenta
 #00FFFF: Bright Cyan
-#A8A8A8: Bright White
+#D7D7D7: Bright White
 ```
+
+Bright white and white are consistently problematic, `tig` uses white to mean the selected commit, bright makes sense as highlighted, but Emacs seems to use bright white for `#FFFFFF`, which it's strange if it's not also set to `#FFFFFF`.
