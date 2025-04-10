@@ -34,7 +34,7 @@ A higher opacity than `0.33` makes dark grey hard to read
 #5F87D7: Blue
 #D75FD7: Magenta
 #00D7D7: Cyan
-#FFFFFF: White
+#D7D7D7: White
 #878787: Bright Black
 #FF8787: Bright Red
 #87FF87: Bright Green
@@ -42,7 +42,9 @@ A higher opacity than `0.33` makes dark grey hard to read
 #87AFFF: Bright Blue
 #FF87FF: Bright Magenta
 #00FFFF: Bright Cyan
-#D7D7D7: Bright White
+#FFFFFF: Bright White
 ```
 
 Bright white and white are consistently problematic, `tig` uses white to mean the selected commit, bright makes sense as highlighted, but Emacs seems to use bright white for `#FFFFFF`, which it's strange if it's not also set to `#FFFFFF`.
+
+Updating these yet again after noting that all builtin Terminal and iTerm colors have bright white lighter than white. So what we've done is increase the brightness of `White` and have `Bright White` be `#FFFFFF`.
