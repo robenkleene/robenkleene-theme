@@ -2,8 +2,9 @@
 
 Kleene Purple: `#211930`
 Foreground color: `#F4F4F4`
-Cursor: `rgba(0,255,0,0.33)`, `#00BB00`
-A higher opacity than `0.33` makes dark grey hard to read
+Cursor: `rgba(0,255,0,0.5)`, `#00BB00`
+- A higher opacity than `0.33` makes dark grey hard to read
+- But `0.33` makes the cursor hard to find, try `0.5`
 
 ```
 #000000 : Black
