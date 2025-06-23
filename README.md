@@ -1,7 +1,17 @@
 # Output Values
 
+## Background Colors
+
 Kleene Purple: `#211930`
+BBEdit Black: `#141414`
+Xcode Black: `#292A30`
+
+## Foreground Colors
+
 Foreground color: `#F4F4F4`
+
+## Cursor Colors
+
 Cursor: `rgba(0,255,0,0.5)`, `#00BB00`
 - A higher opacity than `0.33` makes dark grey hard to read
 - But `0.33` makes the cursor hard to find, try `0.5`
