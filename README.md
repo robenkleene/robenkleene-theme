@@ -56,6 +56,28 @@ Cursor: `rgba(0,255,0,0.5)`, `#00BB00`
 #FFFFFF: Bright White
 ```
 
+# Bright ANSI 256 Versions
+
+```
+#000000: Black
+#FF8787: Red
+#87FF87: Green
+#FFFF00: Yellow
+#87AFFF: Blue
+#FF87FF: Magenta
+#00FFFF: Cyan
+#D7D7D7: White
+#878787: Bright Black
+#FFAF87: Bright Red
+#D7FF87: Bright Green
+#FFFFD7: Bright Yellow
+#D7FFFF: Bright Blue
+#FFAFFF: Bright Magenta
+#5FFFFF: Bright Cyan
+#FFFFFF: Bright White
+```
+
 Bright white and white are consistently problematic, `tig` uses white to mean the selected commit, bright makes sense as highlighted, but Emacs seems to use bright white for `#FFFFFF`, which it's strange if it's not also set to `#FFFFFF`.
 
 Updating these yet again after noting that all builtin Terminal and iTerm colors have bright white lighter than white. So what we've done is increase the brightness of `White` and have `Bright White` be `#FFFFFF`.
+
