@@ -63,17 +63,19 @@ Cursor: `rgba(0,255,0,0.5)`, `#00BB00`
 #FF8787: Red
 #87FF87: Green
 #FFFF00: Yellow
-#87AFFF: Blue
+# Blue is treated special because for some reason `8787FF` is too dark
+# This means we also have to treat cyan a bit differently to compensate for the fact we're brightening blue
+#5FAFFF: Blue
 #FF87FF: Magenta
-#00FFFF: Cyan
+#5FFFFF: Cyan
 #D7D7D7: White
 #878787: Bright Black
 #FFAF87: Bright Red
-#D7FF87: Bright Green
-#FFFFD7: Bright Yellow
-#D7FFFF: Bright Blue
+#AFFF87: Bright Green
+#FFFFAF: Bright Yellow
+#87AFFF: Bright Blue
 #FFAFFF: Bright Magenta
-#5FFFFF: Bright Cyan
+#AFFFFF: Bright Cyan
 #FFFFFF: Bright White
 ```
 
